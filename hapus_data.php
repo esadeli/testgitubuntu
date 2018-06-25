@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Sistem Gudang Extension</title>
+		<title>Sistem Gudang - Extension</title>
 		<style type="text/css">
 			table tr td,th{
 				border : 1px solid;
@@ -56,12 +56,12 @@
 			?>
 
 		<form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"].'?id='.$_GET['id']); ?>">
-			Hapus data barang ?<br><br>
-			<label>Kode Barang :</label><?=$kodebarang?><br>
-			<label>Nama Barang :</label><?=$namabarang?><br>
-			<label>Jumlah Barang :</label><?=$jumlahbarang?><br>
-			<label>Surat Permintaan Barang :</label><?=$suratpermintaan?><br>
-			<label>Penanggung Jawab :</label><?=$penanggungjawab?><br>
+			Delete item ?<br><br>
+			<label>Item Code :</label><?=$kodebarang?><br>
+			<label>Item Description :</label><?=$namabarang?><br>
+			<label>Quantity :</label><?=$jumlahbarang?><br>
+			<label>Goods Receipt Document :</label><?=$suratpermintaan?><br>
+			<label>Responsible Staff :</label><?=$penanggungjawab?><br>
 
 			<input type="submit" value="Delete">
 
