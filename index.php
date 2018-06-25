@@ -15,11 +15,11 @@
 		<table>
 			<tr>
 				<th>ID</th>
-				<th>Kode Barang</th>
-				<th>Barang</th>
-				<th>Jumlah</th>
-				<th>Surat Permintaan Barang</th>
-				<th>Staff - Penanggung Jawab</th>
+				<th>Item Code</th>
+				<th>Item Description</th>
+				<th>Quantity</th>
+				<th>Goods Receipt Document</th>
+				<th>Responsible Staff</th>
 				<th>Master Data</th>
 				<th>Update Jumlah</th>
 			</tr>
