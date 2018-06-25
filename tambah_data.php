@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Sistem Gudang Extension</title>
+		<title>Simple Warehouse System</title>
 		<style>
 			table tr td, th{
 				border : 1px solid;
@@ -52,17 +52,17 @@
 			?>
 		
 		<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-			<label>Kode Barang</label><br>
+			<label>Item Code</label><br>
 			<input class="inputkodebarang"  name="inputkodebarang" value ="">
 			<br>
-			<label>Nama Barang</label><br>
+			<label>Item Description</label><br>
 			<input class="inputnamabarang" name="inputnamabarang" value="">
 			<br>
-			<label>Jumlah Barang</label><br><?=$jumlahbarang?><br>
-			<label>Surat Permintaan Barang</label><br>
+			<label>Quantity</label><br><?=$jumlahbarang?><br>
+			<label>Goods Receipt Document</label><br>
 			<input class="inputsuratpermintaan" name="inputsuratpermintaan" value="">
 			<br>
-			<label>Staff - Penanggung Jawab</label><br>
+			<label>Responsible Staff</label><br>
 			<input class="inputpenanggungjawab" name="inputpenanggungjawab", value="">
 			<br>
 			<input type="submit" value="Save">

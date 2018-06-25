@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Sistem Gudang - Extension</title>
+		<title>Simple Warehouse System</title>
 		<style>
 			table tr td, th {
 				border : 1px solid;
